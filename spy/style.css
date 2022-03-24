@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box;
+    
+}
+body{
+    font-family: vazir;
+}
+@font-face {
+    font-family: vazir;
+    src: url(Font/vazir-font-v16.1.0/Vazir-Bold.eot),url(Font/vazir-font-v16.1.0/Vazir.woff),url(Font/vazir-font-v16.1.0/Vazir.woff2);
+}
+
+.contain-up{
+    width: 100%;
+    height: 100vh;
+    background-image: url(back.jpg);
+    background-size:cover;
+    background-position:center;
+    position: relative;
+}
+
+
+nav{
+    width:100%;
+    height: 80px;
+    background-color: #00000052;
+}
+
+.logo{
+   width: 75px;
+   line-height: 80px;
+   margin-left: 50px;
+   border-right: 3px solid white;
+
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+    direction: rtl;
+}
+nav ul li {
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+} 
+nav ul li a{
+    color: #fff;
+    font-size: 17px;
+    text-transform:uppercase;
+    padding: 12px 15px;
+    border-radius: 10px;
+}
+.active,a:hover{
+    background:#bbd63f;
+    transition:.4s;
+    color: black;
+}
+
+
+
+
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display:none;
+}
+
+
+.inner-text{
+    color: white;
+    position: absolute;
+    width: 25%;
+    top: 50vh;
+    left: 60%;
+    background-color: rgba(119, 50, 50, 0.527);
+    padding: 12px 25px;
+}
+.inner-text p{
+    text-align: justify;
+}
+
+.inner-text h1{
+    color: red;
+}
+
+/*context */
+
+.context{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding :50px  20%;
+    position: relative;
+}
+
+.firstgalley{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.firstgal,.secondgal,.thirdgal{
+    flex-basis: 33.3%;
+    height: 400px;
+    background-color: lightcoral;
+    cursor: pointer;
+}
+.firstgal{
+    background-image: url(1.png);
+    background-size: cover;
+    position: relative;
+}
+.txtfirst{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    padding: 10px;
+    height: 250px;
+
+}
+.txtfirst:hover{
+    background-color: rgba(207, 200, 200, 0.699);
+    color: rgb(53, 39, 4);
+
+}
+
+.secondgal{
+    position: relative;
+    background-image: url(2.png);
+    background-size: cover;
+
+}
+.thirdgal{
+    background-image: url(3.png);
+    background-size: cover;
+    position: relative;
+}
+.yellowbox{
+    box-sizing: border-box;
+    padding: 0 20%;
+    direction: rtl;
+    width: 100%;
+    height: 250px;
+    background-color: #f7c864;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.yellowbox img{
+    width: 300px;
+    margin-left: 50px;
+}
+
+.blackbox{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    direction: rtl;
+}
+
+
+
+
+
+
+@media (max-width:600px){
+    .inner-text{
+        padding: 5px 12px;
+    }
+
+
+
+.inner-text h1{
+    font-size: 17px;
+}
+.inner-text p{
+    font-size: 15px;
+}
+    .checkbtn{
+        display: block;
+        margin-right: 20px;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left:-100%;
+        text-align: center;
+        background-color: coral;
+        transition: 2s;
+    }
+
+    nav ul li {
+        display: block;
+    }
+    nav ul li a{
+        font-size: 20px;
+        color: white;
+    }
+
+    a:hover,.active{
+        background:none;
+        color: red;
+    }
+
+    #check:checked~ ul{
+        left: 0;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    nav{
+        text-align: center;
+        background-color: black;
+        color: red;
+    }
+
+
+.firstgalley{
+    width: 100%;
+    display: block;
+}
+
+.firstgal,.secondgal,.thirdgal{
+    margin-top: 25px;
+}
+.yellowbox{
+    padding: 0 5%;
+    width: 100%;
+    height: 100px;
+bottom: 0;
+
+}
+.yellowbox img{
+    width: 150px;
+    margin-left: 30px;
+}
+.text h1{
+    font-size: 14px;
+}
+.text p{
+    font-size: 7px;
+}
+.txtfirst h1{
+    font-size: 20px;
+    margin-bottom: 3vh;
+}
+.first-line h1{
+    font-size: 25px;
+    background-color: lightpink;
+    padding: 10px 12px;
+}
+}
+
+
+
+
+
+@media(max-width:1000px){
+    nav ul li a{
+        font-size: 15px;
+        color: white;
+    }
+
+    .txtfirst h1{
+        font-size: 18px;
+        margin-bottom: 3vh;
+    }
+    .text h1{
+        font-size: 25px;
+    }
+    .text p{
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:1280px){
+    .logo{
+        width: 50px;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+  
+    .inner-text{
+        width: 40%;
+        top: 30vh;
+        left: 50%;
+    }
+    .context{
+        padding :50px  2%;
+    }
+    .yellowbox{
+        padding: 0 2%;
+    }
+ 
+}
+
+@media (min-width:1300px){
+   
+    .inner-text{
+        width: 40%;
+        left:40%;
+        padding: 12px 25px;
+    }
+    .context{
+        padding :50px  5%;
+    }
+
+}
