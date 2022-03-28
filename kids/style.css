@@ -186,7 +186,7 @@ bottom: 50px;
 
 
 
-@media (max-width:500px){
+@media (max-width:600px){
     .navbar ul{
         position: fixed;
         top:100px;
