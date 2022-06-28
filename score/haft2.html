@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+<div class="highschool">
+
+    <a href="https://www.instagram.com/ebnesinaschool/" target="_blank">
+    <img src="https://snapcdn.net/?https%3A%2F%2Fscontent.cdninstagram.com%2Fv%2Ft51.2885-15%2F240184180_2941261359469056_7364742793361288567_n.jpg%3Fstp%3Ddst-jpg_e35_s640x640_sh0.08%26_nc_ht%3Dscontent.cdninstagram.com%26_nc_cat%3D100%26_nc_ohc%3DmIQBNzfBpWkAX_FBu6F%26edm%3DAJBgZrYBAAAA%26ccb%3D7-5%26oh%3D00_AT8voqRtuRwo-dOqcc0YtoTAhWbqitDKZxhXXNZdvpVCbA%26oe%3D62C19E7C%26_nc_sid%3D78c662" class="logo">
+</a>
+</div>
+
+    <div class="topText">:برای دیدن رتبه ات،معدل سالیانه ات رو وارد کن</div>
+
+<div class="input">
+    <input type="text" id="getScore" placeholder="">
+    
+    <div class="but">
+        <button onclick="myscore()" id="click" type="button">     رتبه ام رو محسابه کن</button>
+    </div>
+
+    
+    <div class="result">
+        <h2 id="final">
+            نمایش رتبه
+        </h2>
+    </div>
+    
+</div>
+
+</div>
+
+<script>
+
+
+    let score=[14.24,14.98,16.67,17.83,16.52,16.79,19.40,18.45,14.52,19.05,15.21,17.95,16.86,19.14,16.83,16.17,16.10,19.88,19.88,14.95,18.71,16.93,15.76,19.40,16.79,].sort();
+    console.log(score);
+
+
+
+
+
+    function myscore(){
+     var std=document.getElementById("getScore").value;
+     if(std>19.88){
+        document.getElementById("final").innerHTML="بالاترین معدل این کلاس 19.88";
+     }
+
+     else if(std==19.88){
+          document.getElementById("final").innerHTML="شاگرد اول کلاس 702";
+     }else if(std<19.88 && std>19.39){
+          document.getElementById("final").innerHTML="شاگرد دوم کلاس 702";
+
+     }else if(std<19.40&&std>19.13){
+          document.getElementById("final").innerHTML="شاگرد سوم کلاس 702";
+
+     }else if(std<19.14 && std>19.04){
+          document.getElementById("final").innerHTML="شاگرد چهارم کلاس 702";
+
+     }else if(std<19.05 && std>18.70){
+          document.getElementById("final").innerHTML="شاگرد پنجم کلاس 702";
+
+     }else if(std<18.71 && std>18.44){
+          document.getElementById("final").innerHTML="شاگرد ششم کلاس 702";
+
+     }else if(std<19.62){
+          document.getElementById("final").innerHTML="شاگرد اول تا ششم702 نیستی";
+
+     }
+    }
+</script>
+</body>
+</html>
