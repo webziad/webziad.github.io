@@ -1,0 +1,73 @@
+@font-face {
+     font-family:Vazir ;
+     src: url(vazir-font-v16.1.0/Vazir-Bold.ttf);
+}
+
+*{
+     font-family:Vazir;
+     direction: rtl;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+}
+
+.accordion{
+     max-width: 800px;
+}
+.accordion .contentBox {
+     position: relative;
+     margin: 10px 20px;
+}
+
+.accordion .contentBox .lable{
+     position: relative;
+     padding: 10px;
+     background-color:#002c3c;
+     color: white;
+
+}
+.accordion .contentBox .lable::before{
+     content: "+";
+     position: absolute;
+     top: 50%;
+     left: 20px;
+     transform:translateY(-50%);
+     font-size: 1.3em;
+}
+
+
+.accordion .contentBox.active .lable::before{
+     content:'-';
+}
+
+.accordion .contentBox .content {
+     position: relative;
+     color: black;
+     background-color: #004050;
+     color: #fff;
+     height: 0;
+     overflow: hidden;
+     transition: .5s;
+     overflow-y: auto;
+}
+.accordion .contentBox.active .content{
+     height: 100px;
+     padding: 10px;
+}
+
+h1{
+     font-size: 1em;
+     text-align: center;
+color: rgb(218, 178, 0);  
+text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.639);   
+}
+
+.one{
+     background-color: orange;
+}
