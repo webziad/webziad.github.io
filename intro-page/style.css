@@ -1,0 +1,273 @@
+*{
+     margin: 0;
+     padding:0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Open+Sans:ital,wght@1,700&display=swap');
+.container{
+     width:100%;
+     height: 100vh;
+     position: relative;
+     background-color: rgb(15, 5, 5);
+}
+
+
+.card{
+     width: 30%;
+     height: 80%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     border-radius:20px ;
+     display: flex;
+     flex-direction: column;
+}
+
+.frist-box{
+     background-color:#d12229;
+width: 100%;
+border-start-start-radius:20px ;
+height: 30%;
+text-align: center;
+padding-top: 10%;
+}
+
+.frist-box h1{
+     font-size: 25px;
+     font-weight: 800;
+     font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+color: #fff;
+}
+.frist-box p{
+     color: #fff;
+     font-family: cursive;
+padding-bottom: 1.5rem;
+
+}
+
+.second-box{
+     width: 100%;
+     height: 60%;
+     display: flex;
+     position: relative;
+     flex-direction: column;
+border-end-end-radius:20px ;
+
+}
+.name h2{
+     font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.crircle{
+     width: 100px;
+     height: 100px;
+     left: 50%;
+     transform: translateX(-50%);
+     background-color: #1aeeee;
+position: absolute;
+top: 20%;
+border-radius: 50%;
+background:url(img/1.jpg)center;
+background-size:cover;
+border: 5px solid #393939;
+transition: 200ms ease-in-out;
+cursor: pointer;
+}
+
+.crircle:hover{
+     
+     border: 10px solid #393939;
+     
+}
+
+
+
+.name{
+     text-align:center;
+font-family: 'Open Sans', sans-serif;
+width: 100%;
+height:35%;
+padding-top: 15%;
+background-color: pink;
+}
+.name h2{
+     font-size:.6rem;
+     color: #fff;
+     color: #000;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 900;
+}
+
+.name h4{
+     font-size: 1.2rem;
+     color: #000;
+     font-weight: 200;
+}
+
+.link{
+     width: 100%;
+     height: 55%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+
+}
+.git-hub{
+     width: 100%;
+     height: 33%;
+     display:flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: goldenrod;
+     margin-bottom: 2%;
+padding: .5rem;
+
+}
+
+.git-hub:hover{
+     background-color: gold;
+     
+}
+
+.git-logo{
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     background-image: url(img/github-sign.png);
+     background-position: center;
+     background-size:120%;
+
+}
+
+.git-hub a{
+     color: rgb(0, 0, 0);
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 1.2rem;     
+   
+}
+
+.linkedin{
+     width: 100%;
+     height: 33%;
+     display:flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: goldenrod;
+     margin-bottom: 2%;
+padding: .5rem;
+}
+
+.linkedin:hover{
+     background-color: gold;
+}
+
+.linkedin-logo{
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     background-image: url(img/linkedin.png);
+     background-position: center;
+     background-size:120%;
+}
+
+
+.linkedin a{
+     color: rgb(0, 0, 0);
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 1.2rem;     
+     
+display: block;
+}
+
+.codepen{
+     width: 100%;
+     height: 33%;
+     display:flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: goldenrod;
+     margin-bottom: 2%;
+border-end-end-radius:20px ;
+padding: .5rem;
+}
+.codepen:hover{
+     background-color: gold;
+
+}
+
+.codepen-logo{
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     background-image: url(img/codepen.png);
+     background-position: center;
+     background-size:120%;
+}
+
+
+.codepen a{
+     color: rgb(0, 0, 0);
+     font-family: 'Josefin Sans', sans-serif;
+font-size: 1.2rem;     
+}
+
+
+
+@media(max-width:480px){
+     .card{
+          width: 60%;
+          height: 90%;
+     }
+.name{
+     margin-top: 5%;
+}
+.crircle{
+     width: 70px;
+     height: 70px;
+     top: 25%;
+}
+
+}
+
+
+@media(min-width:481px){
+     .card{
+          width: 50%;
+          height: 90%;
+     }
+     .crircle{
+          top: 22%;
+     }
+}
+
+@media(max-width:768){
+     .card{
+          width: 50%;
+          height: 90%;
+     }
+     .crircle{
+          top: 22%;
+     }
+}
+
+
+@media(min-width:1200px){
+     .card{
+          width: 30%;
+
+     }
+}
+
+
+@media (min-width:2000px){
+     .card{
+          width: 20%;
+          height: 80%;
+     }
+}
