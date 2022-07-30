@@ -49,10 +49,11 @@
   height: 20%;
   background-image: url("background.png");
   background-size: cover;
-
   background-repeat: no-repeat;
   background-position: center;
+
 }
+
 .right-side-bottom {
   width: 100%;
   height: 80%;
@@ -90,16 +91,20 @@
   justify-content: space-between;
   padding: 0 5%;
 }
+
 .week h4 {
   background-color: white;
   font-family: Vazir;
 }
+
 .week img {
   height: 50%;
 }
+
 .homework {
   background-color: white;
 }
+
 .homework .fa {
   margin-left: 5px;
   background-color: white;
@@ -124,6 +129,7 @@
   width: 100%;
   height: 15%;
 }
+
 .first img {
   width: 100%;
 }
@@ -131,6 +137,7 @@
 #check {
   display: none;
 }
+
 .btn {
   position: absolute;
   right: 0;
@@ -192,6 +199,7 @@ iframe {
   .class {
     height: 5%;
   }
+
   .week h4 {
     font-size: 15px;
   }
@@ -199,11 +207,12 @@ iframe {
   .homework .fa {
     font-size: 20px;
   }
+
   .week img {
     display: none;
   }
 
-  #check:checked ~ .left-side {
+  #check:checked~.left-side {
     display: block;
   }
 }
@@ -219,6 +228,7 @@ iframe {
     background-size: 80%;
   }
 }
+
 @media (min-width: 2000px) {
   .right-side-top {
     background-size: 70%;
