@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>frontend</title>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="small.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="checkbox" id="check" />
+      <label for="check" class="btn">
+        <i class="fa fa-bars"></i>
+      </label>
+
+      <div class="right-side">
+        <div class="right-side-top"></div>
+
+        <div dir="rtl" class="right-side-bottom">
+          <div class="question" id="ques">
+            <h4>چطوری از هر عکسی خواستیم برای favicon استفاده کنیم؟</h4>
+            <p>
+              باید فایل عکستون رو داخل فایل پروژه تون اضافه کنید و از اونجا
+              انتخابش کنید.
+            </p>
+            <br />
+            <h4>
+              اگر بخواهیم favicon توسط همه مرورگر ها پشتیبانی شود چکار باید
+              کنیم؟
+            </h4>
+            <p>برای این کار باید از conditional comment استفاده کنیم.</p>
+            <br />
+            <h4>
+              اگر وبسایت ما دو زبانه باشد، باید در کدام قسمت زبان سایت را مشخص
+              کنیم؟
+            </h4>
+            <p>
+              در تگ html lang = 'en' اما اگر سایت دو زبانه است، 2 فایل اچ تی ام
+              ال جداگانه باید داشته باشیم.
+            </p>
+            <br />
+            <h4>چرا اینپوت سرچ من موقع کوچک کردن صفحه تغییر سایز نمی دهد؟</h4>
+            <br />
+            <img src="ques.gif" class="giff" />
+          </div>
+
+          <div class="question2" id="ques2">
+            <h4>آیکن داخل چه تگی قرار میگیره؟</h4>
+            <p>
+              داخل تگ i قرار میگیره
+              <img src="fa.PNG"   width="100px" height=10px">
+              فقط قبلش باید به پروژه اد شده باشه.
+            </p>
+            <br />
+            <h4>
+              آیا میشه کاری کنیم وقتی موس رفت روی یه آیکون  رنگش عوض بشه؟
+
+            </h4>
+            <p>
+              بله باید از hover استفاده کنی به شکل زیر:
+<br>
+            <img src="hover.PNG" width="150px" height="60px">
+<br>
+              حالا مهم نیست رنگ اون المان با کلاس لوگو که چی بوده، وقتی موس بره روش رنگ بک گراندش آبی میشه.
+            </p>
+            <br />
+            <h4>
+             تکست الاین رو باید به خود تگ بدیم تا وسط چین بشه؟
+            </h4>
+            <p>
+            text-align 
+            به پرنت تگ داده میشه و بهش میگه ای پرنت، تگ هایی که داخلت هست را بچین وسط
+            </p>
+            <br />
+          </div>
+
+          <!-- <div class="lessons" id="lesson"> -->
+          <iframe
+            id="lesson"
+            src="https://drive.google.com/file/d/1Z18e2ziZZ7_tkuFDdXjwO_WPg5IdsyVs/preview"
+            allow="autoplay"
+          ></iframe>
+          <iframe
+            id="lesson2"
+            src="https://drive.google.com/file/d/1FaHEfh_g1EvH0AmArEGFhJmEF0BpIr91/preview"
+            allow="autoplay"
+          ></iframe>
+
+          <!-- </div> -->
+          <div class="link" id="links">
+            <div class="first" dir="rtl">
+              <a
+                target="_blank"
+                href="https://www.kevinleary.net/cross-browser-favicons/"
+              >
+                <img src="fav.png" alt="" />
+              </a>
+            </div>
+            <div class="first" dir="rtl">
+              <a
+                target="_blank"
+                href="https://www.geeksforgeeks.org/container-and-empty-tags-in-html/"
+              >
+                <img src="container.png" alt="" />
+              </a>
+            </div>
+
+            <div class="first" dir="rtl">
+              <a
+                target="_blank"
+                href="https://www.w3schools.com/tags/tag_meta.asp"
+              >
+                <img src="meta.png" alt="" />
+              </a>
+            </div>
+
+            <div class="first" dir="rtl">
+              <a
+                target="_blank"
+                href="https://www.geeksforgeeks.org/difference-between-semantic-and-non-semantic-elements/"
+              >
+                <img src="sematic.png" alt="" />
+              </a>
+            </div>
+          </div>
+
+
+
+
+
+
+          <div class="link2" id="links2">
+            <div class="first" dir="rtl">
+              <a
+                target="_blank"
+                href="https://discord.com/channels/984454937591287818/984723875038363690/1002489147308650567"
+              >
+                <img src="project.png" alt="" />
+              </a>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+      <nav class="left-side">
+        <img src="logo.PNG" class="logo" />
+
+        <div class="week one">
+          <img src="1.jpg" />
+          <div class="homework">
+            <i onclick=" lesson()" class="fa fa-book"></i>
+            <i
+              onclick="ques()"
+              class="fa fa-question-circle"
+              aria-hidden="true"
+            ></i>
+            <i
+              onclick="ref()"
+              class="fa fa-object-group"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <h4>هفته1</h4>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="week two">
+          <img src="2.jpg" />
+          <div class="homework">
+            <i onclick="lesson2()" class="fa fa-book"></i>
+            <i class="fa fa-question-mark"></i>
+            <i
+            onclick="ques2()"
+              class="fa fa-question-circle"
+              aria-hidden="true"
+            ></i>
+            <i onclick="ref2()" class="fa fa-object-group" aria-hidden="true"></i>
+          </div>
+          <h4>هفته2</h4>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="week one">
+          <img src="3.jpg" />
+          <div class="homework">
+            <i class="fa fa-book"></i>
+            <i class="fa fa-question-mark"></i>
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+            <i class="fa fa-object-group" aria-hidden="true"></i>
+          </div>
+          <h4>هفته 3</h4>
+        </div>
+
+        <div class="week one">
+          <img src="4.jpg" />
+          <div class="homework">
+            <i class="fa fa-book"></i>
+            <i class="fa fa-question-mark"></i>
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+            <i class="fa fa-object-group" aria-hidden="true"></i>
+          </div>
+          <h4>هفته4</h4>
+        </div>
+
+        <div class="week one">
+          <img src="5.jpg" />
+          <div class="homework">
+            <i class="fa fa-book"></i>
+            <i class="fa fa-question-mark"></i>
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+            <i class="fa fa-object-group" aria-hidden="true"></i>
+          </div>
+          <h4>هفته5</h4>
+        </div>
+
+        <div class="week one">
+          <img src="6.jpg" />
+          <div class="homework">
+            <i class="fa fa-book"></i>
+            <i class="fa fa-question-mark"></i>
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+            <i class="fa fa-object-group" aria-hidden="true"></i>
+          </div>
+          <h4>هفته6</h4>
+        </div>
+
+        <div class="week one">
+          <img src="7.jpg" />
+          <div class="homework">
+            <i class="fa fa-book"></i>
+            <i class="fa fa-question-mark"></i>
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+            <i class="fa fa-object-group" aria-hidden="true"></i>
+          </div>
+          <h4>هفته7</h4>
+        </div>
+
+        <div class="week one">
+          <img src="8.jpg" />
+          <div class="homework">
+            <i class="fa fa-book"></i>
+            <i class="fa fa-question-mark"></i>
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+            <i class="fa fa-object-group" aria-hidden="true"></i>
+          </div>
+          <h4>هفته8</h4>
+        </div>
+
+        <div class="week one">
+          <img src="9.jpg" />
+          <div class="homework">
+            <i class="fa fa-book"></i>
+            <i class="fa fa-question-mark"></i>
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+            <i class="fa fa-object-group" aria-hidden="true"></i>
+          </div>
+          <h4>هفته9</h4>
+        </div>
+
+        <div class="week one">
+          <img src="10.jpg" />
+          <div class="homework">
+            <i class="fa fa-book"></i>
+            <i class="fa fa-question-mark"></i>
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+            <i class="fa fa-object-group" aria-hidden="true"></i>
+          </div>
+          <h4 class="smaller">هفته10</h4>
+        </div>
+      </nav>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
