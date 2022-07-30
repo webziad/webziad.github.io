@@ -1,240 +1,226 @@
-*{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     background-color: #e3e8ec;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e3e8ec;
 }
-
 
 @font-face {
-     font-family: Vazir;
-     src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Black.eot);
-     src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Black.woff);
-     src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Black.woff2);
+  font-family: Vazir;
+  src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Black.eot);
+  src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Black.woff);
+  src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Black.woff2);
 }
 
-
-.smaller{
-     font-size: 14px;
+.smaller {
+  font-size: 14px;
 }
 
-
-.container{
-     display: flex;
-     width: 90%;
-     height: 90vh;
-     margin: 3%;
+.container {
+  display: flex;
+  width: 90%;
+  height: 90vh;
+  margin: 3%;
 }
 
-.left-side{
-     width: 25%;
-     height: 100%;
-margin-left: 5%;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-background-color: #fff;
-display: flex;
-flex-direction: column;
+.left-side {
+  width: 25%;
+  height: 100%;
+  margin-left: 5%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
-.right-side{
-     width: 80%;
-     height: 100%;
-     border-radius: 10px;
-background-color: rgb(195, 190, 164);
-display: flex;
-flex-direction: column;
-position: relative;
+.right-side {
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(195, 190, 164);
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
+.right-side-top {
+  width: 100%;
+  height: 20%;
+  background-image: url("background.png");
+  background-size: cover;
 
-
-.right-side-top{
-     width: 100%;
-     height: 20%;
-     background-image: url(back.png);
-     background-size:cover;
-     
-     background-repeat: no-repeat;
-     background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.right-side-bottom{
-     width: 100%;
-     height: 80%;
-     overflow: auto;
-     font-family: Vazir;
+.right-side-bottom {
+  width: 100%;
+  height: 80%;
+  overflow: auto;
+  font-family: Vazir;
 }
 
-.right-side-bottom h4{
-     color: darkblue;
+.right-side-bottom h4 {
+  color: darkblue;
 }
 
-.giff{
-     width: 90%;
+.giff {
+  width: 90%;
 }
 
-
-
-
-.logo{
-     width: 100%;
-     border-top-left-radius: 10px;
-     border-top-right-radius: 10px;
+.logo {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.class{
-     margin-top: 5%;
-     width: 100%;
-     height: 10%;
-     background-color: #fff;
+.class {
+  margin-top: 5%;
+  width: 100%;
+  height: 10%;
+  background-color: #fff;
 }
 
-
-.week{
-     display: flex;
-     background-color: white;
-     align-items: center;
-     height: 7.5%;
-     width: 100%;
-     justify-content: space-between;
-     padding: 0 5%;
+.week {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  height: 7.5%;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 5%;
 }
-.week h4{
-     background-color: white;
-     font-family: Vazir;
+.week h4 {
+  background-color: white;
+  font-family: Vazir;
 }
-.week img{
-     height: 50%;
+.week img {
+  height: 50%;
 }
-.homework{
-     background-color: white;
+.homework {
+  background-color: white;
 }
-.homework .fa{
-     margin-left: 5px;
-     background-color: white;
-}
-
-.question, .lessons{
-     display: none;
+.homework .fa {
+  margin-left: 5px;
+  background-color: white;
 }
 
-.link{
-     width: 100%;
-     height: 100%;
-     display: none;
+.question,
+.lessons {
+  display: none;
 }
 
-.first{
-     width: 100%;
-     height: 15%;
-}
-.first img{
-     width: 100%;
+.question2 {
+  display: none;
 }
 
-
-#check{
-     display: none;
-}
-.btn{
-     position: absolute;
-     right:0;
-     font-size: 35px;
-     margin: 2%;
-     display: none;
+.link {
+  width: 100%;
+  height: 100%;
+  display: none;
 }
 
-
-
-iframe{
-     width: 100%;
-     height: 100%;
+.first {
+  width: 100%;
+  height: 15%;
+}
+.first img {
+  width: 100%;
 }
 
-
-@media(max-width:800px){
-
-
-     .left-side{
-          position: fixed;
-          display: none;
-          width: 50%;
-          text-align: center;
-          height: 100%;
-          left: 0;
-          overflow: auto;
-          top: 0;
-     src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Black.woff);
-          border-top-left-radius: 0px;
-border-top-right-radius: 0px;
-overflow: scroll;
-     }
-
-
-     .logo{
-          width: 100%;
-          border-top-left-radius: 0px;
-          border-top-right-radius: 0px;
-     }
-
-.homework .fa{
-     margin-left: 1px;
-     background-color: white;
-     font-size: 50px;
+#check {
+  display: none;
+}
+.btn {
+  position: absolute;
+  right: 0;
+  font-size: 35px;
+  margin: 2%;
+  display: none;
 }
 
-
-
-     .right-side{
-          width: 100%;
-          height: 100%;
-     background-color: rgb(45, 39, 7);
-     }
-    
-
-
-.btn{
-     display: block;
-     position: absolute;
-     right:7%;
-     z-index: 5;
+iframe {
+  width: 100%;
+  height: 100%;
 }
 
-.class{
-     height: 5%;
+#lesson2 {
+  display: none;
 }
-.week h4{
+
+@media (max-width: 800px) {
+  .left-side {
+    position: fixed;
+    display: none;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    top: 0;
+    src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Black.woff);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    overflow: scroll;
+  }
+
+  .logo {
+    width: 100%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  .homework .fa {
+    margin-left: 1px;
+    background-color: white;
+    font-size: 50px;
+  }
+
+  .right-side {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(45, 39, 7);
+  }
+
+  .btn {
+    display: block;
+    position: absolute;
+    right: 7%;
+    z-index: 5;
+  }
+
+  .class {
+    height: 5%;
+  }
+  .week h4 {
     font-size: 15px;
+  }
+
+  .homework .fa {
+    font-size: 20px;
+  }
+  .week img {
+    display: none;
+  }
+
+  #check:checked ~ .left-side {
+    display: block;
+  }
 }
 
-.homework .fa{
-     font-size: 20px;
-}
-.week img{
-     display: none;
-}
-
-#check:checked~ .left-side {
-     display: block;
+@media (min-width: 201px) {
+  .right-side-top {
+    background-size: 100%;
+  }
 }
 
-
+@media (min-width: 1600px) {
+  .right-side-top {
+    background-size: 80%;
+  }
 }
-
-@media(min-width:201px){
-     .right-side-top{
-          background-size:100%;
-     }
-}
-
-
-@media(min-width:1600px){
-     .right-side-top{
-          background-size:80%;
-     }
-}
-@media(min-width:2000px){
-     .right-side-top{
-          background-size:70%;
-     }
+@media (min-width: 2000px) {
+  .right-side-top {
+    background-size: 70%;
+  }
 }
