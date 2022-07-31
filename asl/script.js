@@ -25,7 +25,7 @@ function find() {
      else if (userTrim == "sara" || userTrim == "سارا") {
           sara();
      } else if (userTrim == "hadi" || userTrim == "هادی") {
-          hadise();
+          hadi();
      } else if (userTrim == "hossein" || userTrim == "حسین") {
           hossein();
      } else if (userTrim == "zari" || userTrim == "زری") {
