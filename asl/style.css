@@ -1,0 +1,297 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container {
+     width: 100%;
+     height: 100vh;
+     font-family: Vazir;
+     direction: rtl;
+}
+
+.login-page {
+     width: 20%;
+     height: 70%;
+     background-color: gray;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     border-radius: 10px;
+     box-shadow: 0 0 4px .5px rgb(255, 255, 255);
+}
+
+.top-container {
+     width: 100%;
+     height: 30%;
+     background-color: #d11f47;
+     position: relative;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+}
+
+.text {
+     width: 75%;
+     height: 150px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: #fff;
+     text-align: center;
+}
+
+.text p {
+     color: #fff;
+     font-size: 12px;
+}
+
+.bottom-container {
+     width: 100%;
+     height: 70%;
+     background-color: #363d44;
+     padding: 5%;
+     position: relative;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+}
+
+.search-box {
+     width: 120%;
+     height: 50%;
+     background-color: greenyellow;
+     position: absolute;
+     border-radius: 50px;
+     top: 55%;
+     z-index: 5;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.search-box input {
+     border: none;
+     position: relative;
+     border-radius: 20px;
+     background-color: rgb(77, 120, 13);
+     height: 50%;
+     outline: none;
+     padding: 0 5%;
+     color: #fff;
+     margin-right: 12%
+}
+
+.search-box img {
+     width: 75px;
+     height: 75px;
+     border-radius: 50%;
+     position: relative;
+     margin-left: 3%;
+}
+
+/* this is the listtttttttttttttttttttttttt */
+
+.parsa {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     display: none;
+}
+
+.parham {
+     display: none;
+}
+
+.hanie {
+     display: none;
+}
+
+.hadise {
+     display: none;
+}
+
+
+.zahra {
+     display: none;
+}
+
+.parasto {
+     display: none;
+}
+
+.sara {
+     display: none;
+}
+
+.hooman {
+     display: none;
+}
+
+.hadi {
+     display: none;
+}
+
+.hossein {
+     display: none;
+}
+
+.zari {
+     display: none;
+}
+
+.fatemeh {
+     display: none;
+}
+
+.roqhan {
+     display: none;
+}
+
+.mohaddeseh {
+     display: none;
+}
+
+.mojgan {
+     display: none;
+}
+
+.center {
+     text-align: center;
+}
+
+/* this is the listtttttttttttttttttttttttt */
+
+
+.home {
+     width: 100%;
+     height: 100%;
+     background-image: url(img/home.gif);
+     background-size: 90%;
+     display: block;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+.card-pic {
+     width: 90px;
+     height: 90px;
+     border-radius: 50%;
+     margin: 0 auto;
+}
+
+.card-pic img {
+     width: 100%;
+     width: 95px;
+     height: 95px;
+     border-radius: 50%;
+}
+
+.name {
+     color: #fff;
+     text-align: center;
+     font-size: 15px;
+     margin-top: 7%;
+}
+
+.city {
+     color: #fff;
+     text-align: center;
+     font-size: 10px;
+     color: gold;
+}
+
+.age {
+     text-align: center;
+     font-size: 8px;
+     color: rgb(255, 0, 247);
+}
+
+.git {
+     margin-top: 10px;
+     width: 50px;
+     height: 50px;
+     position: absolute;
+     bottom: 2%;
+     left: 50%;
+     transform: translateX(-50%);
+}
+
+.about {
+     padding: 3%;
+     color: #fff;
+     text-align: justify;
+}
+
+
+
+
+@media(max-width:480px) {
+     .login-page {
+          width: 85%;
+     }
+
+}
+
+@media(min-width:481px) {
+     .login-page {
+          width: 55%;
+     }
+
+}
+
+
+
+@media(min-width:768px) {
+     .login-page {
+          width: 45%;
+     }
+}
+
+
+@media(min-width:1000px) {
+     .login-page {
+          width: 35%;
+     }
+}
+
+@media(min-width:1500px) {
+     .login-page {
+          width: 20%;
+     }
+}
+
+
+
+
+
+@media(max-height:800px) {
+     .login-page {
+          height: 95%;
+     }
+
+     .bottom-container {
+          padding-top: 5%;
+     }
+}
+
+@media(max-height:520px) {
+     .login-page {
+          height: 95%;
+     }
+
+     .bottom-container {
+          padding-top: 10%;
+     }
+
+     .card-pic {
+          width: 50px;
+          height: 50px;
+     }
+}
