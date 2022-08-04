@@ -62,6 +62,7 @@
 
 .children h1 {
     text-shadow: 0 0 3px gold;
+    color:#fff;
 
 }
 
@@ -83,7 +84,7 @@
 }
 
 .teens h1 {
-    color: rgb(0, 0, 0);
+    color:#fff;
     text-shadow: 0 0 3px rgb(0, 0, 0);
     text-shadow: 0 0 3px gold;
 
@@ -108,7 +109,7 @@
 
 .adults H1 {
     text-shadow: 0 0 3px rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
+    color:#fff;
     text-shadow: 0 0 3px gold;
 
 }
@@ -119,7 +120,7 @@
     height: 45px;
     position: absolute;
     left: 50%;
-    transform: translatex(-50);
+    transform: translatex(-50%);
     top:5%;
 }
 
