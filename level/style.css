@@ -118,9 +118,9 @@
     width: 45px;
     height: 45px;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 1%;
+    left: 50%;
+    transform: translatex(-50);
+    top:5%;
 }
 
 .per img {
