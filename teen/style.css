@@ -1,0 +1,339 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Open+Sans:ital,wght@1,700&display=swap');
+
+@font-face {
+     font-family: Vazir;
+     src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff);
+}
+
+.container {
+     width: 100%;
+     height: 100vh;
+
+}
+
+header {
+     width: 100%;
+     height: 80px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding: 5%;
+
+}
+
+.logo {
+     width: 75px;
+     height: 75px;
+     background-image: url(img/music.png);
+     background-size: contain;
+     background-position: center;
+     transition: 100ms ease-in-out;
+     cursor: pointer;
+}
+
+.logo:hover {
+     background-image: url(img/logo.png);
+
+}
+
+.menu-logo {
+     width: 17px;
+}
+
+
+
+
+
+ul {
+     list-style-type: none;
+}
+
+ul li {
+     display: inline-block;
+     margin: 30px;
+}
+
+ul .kid::before {
+     content: url(img/kid.png);
+}
+
+ul .kid:hover::before {
+     content: url(img/kid-color.png);
+}
+
+
+
+
+ul .teen::before {
+     content: url(img/teen.png);
+}
+
+ul .teen:hover::before {
+     content: url(img/teen-color.png);
+}
+
+ul .man::before {
+     content: url(img/man.png);
+}
+
+ul .man:hover::before {
+     content: url(img/man-color.png);
+}
+
+
+ul li a {
+
+     font-size: 25px;
+     text-decoration: none;
+     color: rgb(83, 83, 83);
+     font-family: Vazir;
+     transition: 200ms ease-in-out;
+}
+
+ul li a:hover {
+     color: rgb(255, 217, 0);
+     text-shadow: 0 0 5px black;
+}
+
+
+
+
+
+/* center  start here ............................... */
+
+.center {
+     padding: 0 15%;
+     width: 100%;
+     height: 50%;
+     background-color: #929292;
+     text-align: center;
+     padding-top: 3%;
+     background-image: url(img/backblack.png);
+     background-size: cover;
+     background-position: center;
+     transition: 200ms ease-in-out;
+     cursor: pointer;
+}
+
+.center:hover {
+     background-image: url(img/5277108.jpg);
+}
+
+
+
+.center h1 {
+     color: rgb(255, 255, 255);
+     font-family: 'Josefin Sans', sans-serif;
+     text-shadow: 0px 0px 10px rgb(255, 251, 0);
+}
+
+.center p {
+     font-family: 'Josefin Sans', sans-serif;
+     padding-top: 2%;
+     line-height: 35px;
+     color: #fff;
+     text-shadow: 0px 0px 10px rgb(0, 0, 0);
+     background-color: rgba(0, 0, 0, 0.656);
+}
+
+
+
+
+
+
+
+.stories {
+     width: 100%;
+     height: 500px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     flex-wrap: wrap;
+}
+
+
+.box {
+     width: 26%;
+     margin: 2% 2%;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.476);
+     height: 250px;
+     background-color: rgba(184, 135, 11, 0.53);
+     transition: 200ms ease-in-out;
+     cursor: pointer;
+     border-radius: 10px;
+     opacity: .9;
+     background-size: cover;
+     background-position: center;
+}
+
+.box:hover {
+     background-color: rgba(192, 192, 192, 0.463);
+     width: 25%;
+     opacity: 1;
+}
+
+
+
+.first {
+     background-image: url(img/Screenshot\ \(126\).png);
+}
+
+.second {
+     background-image: url(img/Screenshot\ \(127\).png);
+
+
+}
+
+.third {
+     background-image: url(img/Screenshot\ \(128\).png);
+
+}
+
+.fourth {
+     background-image: url(img/Screenshot\ \(129\).png);
+
+}
+
+.fifth {
+     background-image: url(img/Screenshot\ \(130\).png);
+
+}
+
+.sixth {
+     background-image: url(img/Screenshot\ \(131\).png);
+
+}
+
+
+footer {
+     width: 100%;
+     height: 70px;
+     background-color: rgb(242, 216, 216);
+     text-align: center;
+     font-family: Vazir;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+footer p {
+     color: rgb(0, 0, 0);
+}
+
+
+
+
+
+@media(max-width:508px) {
+
+     .center {
+          height: 25%;
+     }
+
+     .box {
+          width: 80%;
+     }
+
+     .box:hover {
+          width: 81%;
+     }
+
+
+     ul li {
+          display: inline-block;
+          margin: 15px;
+     }
+
+     ul {
+          position: fixed;
+          left: 0;
+          top: 50%;
+     }
+
+     ul li {
+          display: block;
+     }
+
+     ul li a {
+          display: none;
+     }
+
+
+     footer {
+          margin-top: 300%;
+
+     }
+
+     footer p {
+          font-size: 10px;
+     }
+
+     .center {
+          padding: 2% 2%;
+          line-height: 1px;
+     }
+
+}
+
+@media (min-width:508px) {
+     .box {
+          width: 40%;
+     }
+
+     .box:hover {
+          width: 41%;
+     }
+
+
+
+     .center {
+          height: 30%;
+     }
+
+     .center {
+          padding: 2% 6%;
+     }
+
+     ul li a {
+          font-size: 15px;
+     }
+
+     ul li {
+          margin: 10px;
+     }
+
+     footer {
+          margin-top: 60%;
+     }
+
+     footer p {
+          font-size: 12px;
+     }
+
+}
+
+@media (min-width:1023px) {
+     .box {
+          width: 27%;
+     }
+
+     .box:hover {
+          width: 29%;
+     }
+
+     ul li a {
+          font-size: 20px;
+     }
+
+     footer {
+          margin-top: 20%;
+     }
+
+}
