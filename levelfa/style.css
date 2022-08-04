@@ -71,6 +71,7 @@
 .children h1 {
     text-shadow: 0 0 3px gold;
     font-size: 35px;
+    color:#fff;
 
 }
 
@@ -92,7 +93,7 @@
 }
 
 .teens h1 {
-    color: rgb(0, 0, 0);
+    color:#fff;
     text-shadow: 0 0 3px rgb(0, 0, 0);
     text-shadow: 0 0 3px gold;
     font-size: 35px;
@@ -100,10 +101,7 @@
 
 }
 
-/* .teens h1:hover {
-    color: gold;
-    text-shadow: 0 0 5px white;
-} */
+
 
 
 .adults {
@@ -118,13 +116,18 @@
 
 .adults H1 {
     text-shadow: 0 0 3px rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
+    color: #fff;
     text-shadow: 0 0 3px gold;
     font-size: 35px;
 }
 
 
+/* 
 
+هی تو که داری اینو میخونی ، توی فالت دیدم قراره به هدفت برسی :) 
+فالگیری مطمئن: 
+09052357225
+*/ 
 
 
 
