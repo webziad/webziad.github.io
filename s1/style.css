@@ -29,8 +29,7 @@ html {
 
 .full-audio img {
      width: 20px;
-     height: 20px;
-     border-radius: 50%;
+     height: 100%;
      margin-left: 1%;
 
 }
