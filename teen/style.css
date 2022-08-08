@@ -113,15 +113,11 @@ ul li a:hover {
      height: 50%;
      text-align: center;
      padding-top: 3%;
-     background-image: url(img/backblack.jpg);
+     background-image: url(img/colorback.jpg);
      background-size: cover;
      background-position: center;
      transition: 200ms ease-in-out;
      cursor: pointer;
-}
-
-.center:hover {
-     background-image: url(img/colorback.jpg);
 }
 
 
