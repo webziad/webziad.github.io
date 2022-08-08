@@ -227,9 +227,9 @@ html {
      }
 
      .container {
-          width: 90%;
           height: 30%;
      }
+
 
 
 }
@@ -248,14 +248,15 @@ html {
           width: 25px;
           height: 25px;
      }
+
      .container {
-          width: 90%;
           height: 30%;
      }
+
 }
 
 
-@media(min-width:600px) {
+@media(min-width:780px) {
 
 
      .fa-nar,
@@ -263,11 +264,10 @@ html {
           width: 27px;
           height: 27px;
      }
-          .container {
-          width: 90%;
-          height: 30%;
-     }
 
+     .container {
+          height: 80%;
+     }
 }
 
 @media(min-width:1208px) {
@@ -276,10 +276,6 @@ html {
      .eng-nar {
           width: 45px;
           height: 45px;
-     }
-          .container {
-          width: 90%;
-          height: 80%;
      }
 
 
@@ -293,10 +289,7 @@ html {
           width: 45px;
           height: 45px;
      }
-          .container {
-          width: 90%;
-          height: 80%;
-     }
+
 
 }
 
@@ -309,8 +302,5 @@ html {
           width: 55px;
           height: 55px;
      }
-          .container {
-          width: 90%;
-          height: 80%;
-     }
+
 }
