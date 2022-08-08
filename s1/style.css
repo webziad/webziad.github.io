@@ -226,7 +226,10 @@ html {
           height: 45px;
      }
 
-
+     .container {
+          width: 90%;
+          height: 30%;
+     }
 
 
 }
@@ -245,7 +248,10 @@ html {
           width: 25px;
           height: 25px;
      }
-
+     .container {
+          width: 90%;
+          height: 30%;
+     }
 }
 
 
@@ -257,6 +263,10 @@ html {
           width: 27px;
           height: 27px;
      }
+          .container {
+          width: 90%;
+          height: 30%;
+     }
 
 }
 
@@ -266,6 +276,10 @@ html {
      .eng-nar {
           width: 45px;
           height: 45px;
+     }
+          .container {
+          width: 90%;
+          height: 80%;
      }
 
 
@@ -279,7 +293,10 @@ html {
           width: 45px;
           height: 45px;
      }
-
+          .container {
+          width: 90%;
+          height: 80%;
+     }
 
 }
 
@@ -292,16 +309,8 @@ html {
           width: 55px;
           height: 55px;
      }
-
-}
-
-@media(max-height:680px) {
-
-     .container {
-
+          .container {
           width: 90%;
-          height: 30%;
-
+          height: 80%;
      }
-
 }
