@@ -226,7 +226,11 @@ html {
           height: 30%;
      }
 
-
+.fa-nar,
+.eng-nar {
+     width:25px;
+     height:25px;
+     }
 
 }
 
@@ -264,6 +268,13 @@ html {
      .container {
           height: 80%;
      }
+     
+     .fa-nar,
+.eng-nar {
+     width:25px;
+     height:25px;
+     }
+
 }
 
 @media(min-width:1208px) {
