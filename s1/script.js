@@ -217,3 +217,11 @@ document.getElementById('en-22').onclick = function () {
      music("https://dl.pmup.ir/ftpup/1qtj_page_26.mp3")
 }
 
+
+
+function note() {
+     alert('گوشیتو توی حالت افقی قرار بده جون دل')
+}
+
+
+note();

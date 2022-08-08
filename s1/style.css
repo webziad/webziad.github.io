@@ -6,8 +6,9 @@ html {
 }
 
 .full-audio {
-     position: relative;
-     top: 15%;
+     position: absolute;
+     top: 92%;
+     box-shadow: 0 0 10px white;
      width: 50%;
      height: 5%;
      left: 50%;
@@ -15,13 +16,14 @@ html {
      display: flex;
      justify-content: space-around;
      align-items: center;
-
+     border-radius: 10px;
      background-color: #f1f3f4;
 }
 
 .full-audio audio {
 
      margin-left: 5%;
+     height: 100%;
 }
 
 .full-audio img {
@@ -41,7 +43,7 @@ html {
 .menu {
      position: absolute;
      top: 2%;
-     width: 40%;
+     width: 100%;
 }
 
 .menu img {
@@ -69,7 +71,7 @@ html {
 .container {
      position: relative;
      width: 90%;
-     height: 75%;
+     height: 80%;
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
@@ -116,7 +118,7 @@ html {
 
 .pre,
 .nxt {
-     width: 5%;
+     width: 3%;
      height: 50%;
      position: absolute;
      top: 50%;
@@ -215,11 +217,7 @@ html {
 
 
 @media(max-width:480px) {
-     .container {
-          position: relative;
-          width: 80%;
-          height: 20%;
-     }
+
 
      .fa-nar,
      .eng-nar {
@@ -234,49 +232,36 @@ html {
 
 }
 
+
+
+
+
+
+
 @media(min-width:481px) {
-     .container {
-          position: relative;
-          width: 90%;
-          height: 25%;
-     }
+
 
      .fa-nar,
      .eng-nar {
-          width: 45px;
-          height: 45px;
+          width: 25px;
+          height: 25px;
      }
 
-     .full-audio {
-          top: 45%;
-     }
 }
 
 
 @media(min-width:600px) {
-     .container {
-          position: relative;
-          width: 90%;
-          height: 35%;
-     }
+
 
      .fa-nar,
      .eng-nar {
-          width: 45px;
-          height: 45px;
+          width: 27px;
+          height: 27px;
      }
 
-     .full-audio {
-          top: 35%;
-     }
 }
 
 @media(min-width:1208px) {
-     .container {
-          position: relative;
-          width: 95%;
-          height: 50%;
-     }
 
      .fa-nar,
      .eng-nar {
@@ -284,17 +269,11 @@ html {
           height: 45px;
      }
 
-     .full-audio {
-          top: 30%;
-     }
+
 }
 
 @media(min-width:1280px) {
-     .container {
-          position: relative;
-          width: 95%;
-          height: 55%;
-     }
+
 
      .fa-nar,
      .eng-nar {
@@ -302,26 +281,17 @@ html {
           height: 45px;
      }
 
-     .full-audio {
-          top: 30%;
-     }
+
 }
 
 
 @media(min-width:1880px) {
-     .container {
-          position: relative;
-          width: 95%;
-          height: 55%;
-     }
+
 
      .fa-nar,
      .eng-nar {
-          width: 45px;
-          height: 45px;
+          width: 55px;
+          height: 55px;
      }
 
-     .full-audio {
-          top: 30%;
-     }
 }
