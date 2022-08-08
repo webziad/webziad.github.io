@@ -140,8 +140,8 @@ html {
 
 .fa-nar,
 .eng-nar {
-     width: 50px;
-     height: 50px;
+     width: 25px;
+     height: 25px;
      position: absolute;
      bottom: 5%;
      border-radius: 50%;
@@ -243,11 +243,7 @@ html {
 @media(min-width:481px) {
 
 
-     .fa-nar,
-     .eng-nar {
-          width: 25px;
-          height: 25px;
-     }
+   
 
      .container {
           height: 30%;
@@ -259,11 +255,7 @@ html {
 @media(min-width:780px) {
 
 
-     .fa-nar,
-     .eng-nar {
-          width: 27px;
-          height: 27px;
-     }
+ 
 
      .container {
           height: 80%;
@@ -279,11 +271,6 @@ html {
 
 @media(min-width:1208px) {
 
-     .fa-nar,
-     .eng-nar {
-          width: 45px;
-          height: 45px;
-     }
 
 
 }
