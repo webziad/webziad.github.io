@@ -218,10 +218,11 @@ document.getElementById('en-22').onclick = function () {
 }
 
 
+window.onload = function () {
+     var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+     if (mobile) {
+          alert("گوشیتو بچرخون تا بهتر بخونی :) ");
+     } else {
 
-function note() {
-     alert('گوشیتو توی حالت افقی قرار بده جون دل')
+     }
 }
-
-
-note();
