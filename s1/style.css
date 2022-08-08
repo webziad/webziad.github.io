@@ -295,3 +295,20 @@ html {
      }
 
 }
+
+
+@media(min-height:700px) {
+
+.container {
+    
+     width: 90%;
+     height: 40%;
+  
+}
+
+
+}
+
+
+
+
