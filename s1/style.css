@@ -20,7 +20,6 @@ html {
      background-color: #f1f3f4;
 }
 
-
 .full-audio audio {
 
      margin-left: 5%;
@@ -228,9 +227,7 @@ html {
      }
 
 
-     .full-audio {
-          top: 45%;
-     }
+
 
 }
 
@@ -298,19 +295,22 @@ html {
 
 }
 
+@media(min-height:280px) {
 
-@media(min-height:700px) {
+     .container {
 
-.container {
-    
-     width: 90%;
-     height: 30%;
-  
-}
+          width: 90%;
+          height: 30%;
 
+     }
 
 }
 
+@media(min-height:601px) {
+     .container {
 
+          width: 90%;
+          height: 80%;
 
-
+     }
+}
