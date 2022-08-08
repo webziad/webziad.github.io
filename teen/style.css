@@ -168,7 +168,7 @@ ul li a:hover {
      transition: 200ms ease-in-out;
      cursor: pointer;
      border-radius: 10px;
-     opacity: .9;
+     opacity: 1;
      background-size: cover;
      background-position: center;
 }
@@ -176,7 +176,7 @@ ul li a:hover {
 .box:hover {
      background-color: rgba(192, 192, 192, 0.463);
      width: 25%;
-     opacity: 1;
+     opacity: 1.8;
 }
 
 
