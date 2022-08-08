@@ -140,8 +140,8 @@ html {
 
 .fa-nar,
 .eng-nar {
-     width: 25px;
-     height: 25px;
+     width: 20px;
+     height: 20px;
      position: absolute;
      bottom: 5%;
      border-radius: 50%;
@@ -226,12 +226,6 @@ html {
           height: 30%;
      }
 
-.fa-nar,
-.eng-nar {
-     width:25px;
-     height:25px;
-     }
-
 }
 
 
@@ -258,43 +252,9 @@ html {
  
 
      .container {
-          height: 80%;
+          height: 90%;
      }
      
-     .fa-nar,
-.eng-nar {
-     width:25px;
-     height:25px;
-     }
 
 }
 
-@media(min-width:1208px) {
-
-
-
-}
-
-@media(min-width:1280px) {
-
-
-     .fa-nar,
-     .eng-nar {
-          width: 45px;
-          height: 45px;
-     }
-
-
-}
-
-
-@media(min-width:1880px) {
-
-
-     .fa-nar,
-     .eng-nar {
-          width: 55px;
-          height: 55px;
-     }
-
-}
