@@ -295,7 +295,7 @@ html {
 
 }
 
-@media(min-height:280px) {
+@media(max-height:680px) {
 
      .container {
 
@@ -304,13 +304,4 @@ html {
 
      }
 
-}
-
-@media(min-height:601px) {
-     .container {
-
-          width: 90%;
-          height: 80%;
-
-     }
 }
