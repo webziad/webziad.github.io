@@ -30,7 +30,7 @@ header {
 .logo {
      width: 75px;
      height: 75px;
-     background-image: url(img/music.png);
+     background-image: url(img/logo-baz.png);
      background-size: contain;
      background-position: center;
      transition: 100ms ease-in-out;
@@ -38,7 +38,7 @@ header {
 }
 
 .logo:hover {
-     background-image: url(img/logo.png);
+     background-image: url(img/logo-baste.png);
 
 }
 
@@ -59,37 +59,32 @@ ul li {
      margin: 30px;
 }
 
-ul .kid::before {
-     content: url(img/kid.png);
+ul .fa-book::before {
+     content: url(img/fa-book.png);
 }
 
-ul .kid:hover::before {
-     content: url(img/kid-color.png);
+ul .eng-book::before {
+     content: url(img/eng-book.png);
+}
+
+ul .fa-sound::before {
+     content: url(img/fa-sound.png);
+}
+
+ul .eng-sound::before {
+     content: url(img/eng-sound.png);
+}
+
+ul .audio-book::before {
+     content: url(img/audiobook.png);
 }
 
 
-
-
-ul .teen::before {
-     content: url(img/teen.png);
-}
-
-ul .teen:hover::before {
-     content: url(img/teen-color.png);
-}
-
-ul .man::before {
-     content: url(img/man.png);
-}
-
-ul .man:hover::before {
-     content: url(img/man-color.png);
-}
 
 
 ul li a {
 
-     font-size: 25px;
+     font-size: 20px;
      text-decoration: none;
      color: rgb(83, 83, 83);
      font-family: Vazir;
@@ -118,6 +113,8 @@ ul li a:hover {
      background-position: center;
      transition: 200ms ease-in-out;
      cursor: pointer;
+     direction: rtl;
+     font-family: vazir;
 }
 
 
@@ -129,82 +126,42 @@ ul li a:hover {
 }
 
 .center p {
-     font-family: 'Josefin Sans', sans-serif;
-     padding-top: 2%;
-     line-height: 35px;
      color: #fff;
      text-shadow: 0px 0px 10px rgb(0, 0, 0);
      background-color: rgba(0, 0, 0, 0.656);
 }
 
 
-
-
-
-
-
-.stories {
+.shelf {
      width: 100%;
-     height: 500px;
+     height: 100%;
+     padding: .5%;
      display: flex;
-     justify-content: center;
-     align-items: center;
-     position: relative;
-     flex-wrap: wrap;
+
+
 }
 
-
-.box {
-     width: 26%;
-     margin: 2% 2%;
-     box-shadow: 0 0 15px rgba(0, 0, 0, 0.476);
-     height: 250px;
-     background-color: rgba(184, 135, 11, 0.53);
-     transition: 200ms ease-in-out;
-     cursor: pointer;
-     border-radius: 10px;
-     opacity: 1;
-     background-size: cover;
-     background-position: center;
-}
-
-.box:hover {
-     background-color: rgba(192, 192, 192, 0.463);
+.first-book {
      width: 25%;
+     height: 50%;
+     box-shadow: 0 0 10px steelblue;
+     cursor: pointer;
+     transition: 200ms ease-in-out;
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+}
+
+.first-book:hover {
+     width: 32%;
+     height: 52%;
 }
 
 
-
-.first {
-     background-image: url(img/Screenshot\ \(126\).png);
+.first-book img {
+     width: 100%;
+     height: 100%;
 }
-
-.second {
-     background-image: url(img/Screenshot\ \(127\).png);
-
-
-}
-
-.third {
-     background-image: url(img/Screenshot\ \(128\).png);
-
-}
-
-.fourth {
-     background-image: url(img/Screenshot\ \(129\).png);
-
-}
-
-.fifth {
-     background-image: url(img/Screenshot\ \(130\).png);
-
-}
-
-.sixth {
-     background-image: url(img/Screenshot\ \(131\).png);
-
-}
-
 
 footer {
      width: 100%;
@@ -228,17 +185,38 @@ footer p {
 @media(max-width:508px) {
 
      .center {
-          height: 25%;
+          height: 20%;
      }
 
-     .box {
-          width: 80%;
+     .first-book {
+          width: 150px;
+          height: 150px;
+          margin-top: 8%;
      }
 
-     .box:hover {
-          width: 81%;
+     footer {
+          margin-top: 300%;
+
      }
 
+     footer p {
+          font-size: 10px;
+     }
+
+
+}
+
+
+@media(max-width:1100px) {
+     .center {
+          height: 30%;
+     }
+
+     .first-book {
+          width: 250px;
+          height: 250px;
+          margin-top: 8%;
+     }
 
      ul li {
           display: inline-block;
@@ -258,42 +236,12 @@ footer p {
      ul li a {
           display: none;
      }
-
-
-     footer {
-          margin-top: 300%;
-
-     }
-
-     footer p {
-          font-size: 10px;
-     }
-
-     .center {
-          padding: 2% 2%;
-          line-height: 1px;
-     }
-
 }
 
+
+
 @media (min-width:508px) {
-     .box {
-          width: 40%;
-     }
 
-     .box:hover {
-          width: 41%;
-     }
-
-
-
-     .center {
-          height: 30%;
-     }
-
-     .center {
-          padding: 2% 6%;
-     }
 
      ul li a {
           font-size: 15px;
@@ -313,18 +261,18 @@ footer p {
 
 }
 
-@media (min-width:1023px) {
-     .box {
-          width: 27%;
+@media (min-width:1101px) {
+
+     .center {
+          height: 30%;
      }
 
-     .box:hover {
-          width: 29%;
+     .first-book {
+          width: 300px;
+          height: 300px;
+          margin-top: 8%;
      }
 
-     ul li a {
-          font-size: 20px;
-     }
 
      footer {
           margin-top: 20%;
