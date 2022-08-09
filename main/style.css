@@ -2,10 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Vazir;
     text-decoration: none
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
+@font-face {
+    font-family: Vazir;
+    src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.eot);
+    src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff);
+    src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.eot);
+    src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff2);
+}
 
 .container {
     width: 100%;
@@ -20,7 +27,7 @@
 
 .box {
     width: 30%;
-    height: 70%;
+    height: 90%;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -46,13 +53,14 @@
     text-shadow: 0 0 5px white;
 }
 
-.children {
+.two-lan {
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.285), rgba(0, 0, 0, 0.326)), url(bear.webp);
     background-size: cover;
     align-items: center;
+    color: aliceblue;
 }
 
 .logo {
@@ -60,9 +68,8 @@
 }
 
 
-.children h1 {
+.two-lan h1 {
     text-shadow: 0 0 3px gold;
-    color:#fff;
 
 }
 
@@ -72,7 +79,7 @@
 
 
 
-.teens {
+.fa-sound {
     border-radius: 20px;
     background-color: #868a8774;
     display: flex;
@@ -83,8 +90,8 @@
     align-items: center;
 }
 
-.teens h1 {
-    color:#fff;
+.fa-sound h1 {
+    color: rgb(0, 0, 0);
     text-shadow: 0 0 3px rgb(0, 0, 0);
     text-shadow: 0 0 3px gold;
 
@@ -97,7 +104,7 @@
 } */
 
 
-.adults {
+.eng-sound {
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
@@ -107,21 +114,32 @@
     align-items: center;
 }
 
-.adults H1 {
+.eng-sound h1 {
     text-shadow: 0 0 3px rgb(0, 0, 0);
-    color:#fff;
+    color: rgb(0, 0, 0);
     text-shadow: 0 0 3px gold;
 
 }
 
 
-.per {
-    width: 45px;
-    height: 45px;
+
+
+.eng {
+    width: 50px;
+    height: 50px;
     position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-    top:5%;
+    top: 40%;
+    transform: translateY(-40%);
+    right: 3%;
+}
+
+.per {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 3%;
 }
 
 .per img {
