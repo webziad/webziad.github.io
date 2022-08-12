@@ -40,7 +40,7 @@ btn4.addEventListener('click', () => {
 
 
 btn5.addEventListener('click', () => {
-     document.getElementById('b-photo').style.backgroundImage = "url('img/two.png')";
+     document.getElementById('b-photo').style.backgroundImage = "url('https://dl.pmup.ir/ftpup/0w8p_two.png')";
      show("t2");
      hide('t1');
      hide('t3');
