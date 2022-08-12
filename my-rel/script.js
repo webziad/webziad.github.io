@@ -20,7 +20,7 @@ function hide(item) {
 }
 
 btn4.addEventListener('click', () => {
-     document.getElementById('b-photo').style.backgroundImage = "url('img/one.png')";
+     document.getElementById('b-photo').style.backgroundImage = "url('https://dl.pmup.ir/ftpup/9nww_one.png')";
      show("t1");
      hide('t2');
      hide('t3');
@@ -60,7 +60,7 @@ btn5.addEventListener('click', () => {
 
 
 btn6.addEventListener('click', () => {
-     document.getElementById('b-photo').style.backgroundImage = "url('img/3.jpg')";
+     document.getElementById('b-photo').style.backgroundImage = "url('https://dl.pmup.ir/ftpup/q0fr_3.jpg')";
      show('t3');
      hide('t1');
      hide('t2');
@@ -80,7 +80,7 @@ btn6.addEventListener('click', () => {
 
 
 btn7.addEventListener('click', () => {
-     document.getElementById('b-photo').style.backgroundImage = "url('img/four.png')";
+     document.getElementById('b-photo').style.backgroundImage = "url('https://dl.pmup.ir/ftpup/chkt_four.png')";
      show("t4");
      hide('t3');
      hide('t1');
@@ -99,7 +99,7 @@ btn7.addEventListener('click', () => {
 })
 
 btn8.addEventListener('click', () => {
-     document.getElementById('b-photo').style.backgroundImage = "url('img/five.png')";
+     document.getElementById('b-photo').style.backgroundImage = "url('https://dl.pmup.ir/ftpup/rt3h_five.png')";
      show("t5");
      hide("t4");
      hide('t3');
@@ -119,7 +119,7 @@ btn8.addEventListener('click', () => {
 
 
 btn9.addEventListener('click', () => {
-     document.getElementById('b-photo').style.backgroundImage = "url('img/six.png')";
+     document.getElementById('b-photo').style.backgroundImage = "url('https://dl.pmup.ir/ftpup/ssxi_six.png')";
      show("t6");
      hide("t4");
      hide('t3');
@@ -139,7 +139,7 @@ btn9.addEventListener('click', () => {
 
 
 btn10.addEventListener('click', () => {
-     document.getElementById('b-photo').style.backgroundImage = "url('img/seven.png')";
+     document.getElementById('b-photo').style.backgroundImage = "url('https://dl.pmup.ir/ftpup/6ot_seven.png')";
      show('t7');
      hide("t4");
      hide('t3');
@@ -159,7 +159,7 @@ btn10.addEventListener('click', () => {
 
 
 btn11.addEventListener('click', () => {
-     document.getElementById('b-photo').style.backgroundImage = "url('img/eight.png')";
+     document.getElementById('b-photo').style.backgroundImage = "url('https://dl.pmup.ir/ftpup/eleq_eight.png')";
      show('t8');
      hide("t4");
      hide('t3');
@@ -178,7 +178,7 @@ btn11.addEventListener('click', () => {
 })
 
 btn12.addEventListener('click', () => {
-     document.getElementById('b-photo').style.backgroundImage = "url('img/nine.png')";
+     document.getElementById('b-photo').style.backgroundImage = "url('https://dl.pmup.ir/ftpup/1g9_nine.png')";
      show('t9');
      hide("t4");
      hide('t3');
@@ -199,7 +199,7 @@ btn12.addEventListener('click', () => {
 
 
 btn13.addEventListener('click', () => {
-     document.getElementById('b-photo').style.backgroundImage = "url('img/ten.png')";
+     document.getElementById('b-photo').style.backgroundImage = "url('https://dl.pmup.ir/ftpup/wmt8_ten.png')";
      show('t10');
      hide("t4");
      hide('t3');
@@ -220,7 +220,7 @@ btn13.addEventListener('click', () => {
 
 
 btn14.addEventListener('click', () => {
-     document.getElementById('b-photo').style.backgroundImage = "url('img/eleven.png')";
+     document.getElementById('b-photo').style.backgroundImage = "url('https://dl.pmup.ir/ftpup/ccqj_eleven.png')";
      show('t11');
      hide("t4");
      hide('t3');
@@ -241,7 +241,7 @@ btn14.addEventListener('click', () => {
 
 
 btn15.addEventListener('click', () => {
-     document.getElementById('b-photo').style.backgroundImage = "url('img/fifteen.png')";
+     document.getElementById('b-photo').style.backgroundImage = "url('https://dl.pmup.ir/ftpup/xdvu_twelve.png')";
      show('t12');
      hide("t4");
      hide('t3');

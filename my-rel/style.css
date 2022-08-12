@@ -65,7 +65,7 @@
 }
 
 .photo-4 {
-     background-image: url(img/one.png);
+     background-image: url("https://dl.pmup.ir/ftpup/9nww_one.png");
 }
 
 .photo-5 {
@@ -73,43 +73,43 @@
 }
 
 .photo-6 {
-     background-image: url(img/3.jpg);
+     background-image: url("https://dl.pmup.ir/ftpup/q0fr_3.jpg");
 }
 
 .photo-7 {
-     background-image: url(img/four.PNG);
+     background-image: url("https://dl.pmup.ir/ftpup/chkt_four.png");
 }
 
 .photo-8 {
-     background-image: url(img/five.PNG);
+     background-image: url("https://dl.pmup.ir/ftpup/rt3h_five.png");
 }
 
 .photo-9 {
-     background-image: url(img/six.PNG);
+     background-image: url("https://dl.pmup.ir/ftpup/ssxi_six.png");
 }
 
 .photo-10 {
-     background-image: url(img/seven.PNG);
+     background-image: url("https://dl.pmup.ir/ftpup/6ot_seven.png");
 }
 
 .photo-11 {
-     background-image: url(img/eight.PNG);
+     background-image: url("https://dl.pmup.ir/ftpup/eleq_eight.png");
 }
 
 .photo-12 {
-     background-image: url(img/nine.PNG);
+     background-image: url("https://dl.pmup.ir/ftpup/1g9_nine.png");
 }
 
 .photo-13 {
-     background-image: url(img/ten.PNG);
+     background-image: url("https://dl.pmup.ir/ftpup/wmt8_ten.png");
 }
 
 .photo-14 {
-     background-image: url(img/eleven.png);
+     background-image: url("https://dl.pmup.ir/ftpup/ccqj_eleven.png");
 }
 
 .photo-15 {
-     background-image: url(img/fifteen.png);
+     background-image: url("https://dl.pmup.ir/ftpup/xdvu_twelve.png");
 }
 
 
@@ -127,7 +127,7 @@
 }
 
 .text {
-     width: 90%;
+     width: 80%;
      height: 90%;
      background-color: #00223E;
      position: absolute;
@@ -155,8 +155,8 @@
      font-family: fantasy;
      font-size: 25px;
      color: #00223E;
-     border: 1px solid white;
-     background-size: cover;
+     background-size: 65%;
+     background-repeat: no-repeat;
      background-position: center;
 }
 
@@ -164,7 +164,7 @@
 
 @media(max-width:480px) {
      .album {
-          width: 70%;
+          width: 85%;
           height: 55%;
      }
 
@@ -193,7 +193,7 @@
 
 @media(min-width:481px) {
      .album {
-          width: 80%;
+          width: 90%;
           height: 55%;
      }
 
@@ -222,7 +222,7 @@
 
 @media(min-width:768px) {
      .album {
-          width: 85%;
+          width: 95%;
           height: 95%;
      }
 
@@ -249,7 +249,7 @@
 
 @media(min-width:1280px) {
      .album {
-          width: 70%;
+          width: 90%;
           height: 95%;
      }
 
@@ -276,7 +276,7 @@
 
 @media(max-height:500px) {
      .album {
-          width: 80%;
+          width: 90%;
           height: 50%;
      }
 
