@@ -1,0 +1,328 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Vazir;
+}
+
+@font-face {
+     font-family: Vazir;
+     src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.eot);
+     src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff);
+     src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff2);
+}
+
+.container {
+     width: 100%;
+     height: 100vh;
+     background-image: linear-gradient(to right, #FFA17F, #00223E);
+}
+
+.album {
+     width: 70%;
+     height: 95%;
+     background-image: url(img/myAlbum.png);
+     background-position: center;
+     background-size: cover;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.661);
+     position: relative;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.right-page {
+     width: 49%;
+     height: 95%;
+     right: 0;
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     overflow: auto;
+}
+
+.small {
+     width: 30%;
+     height: 100px;
+     background-color: rgb(0, 106, 199);
+     margin: .5%;
+     box-shadow: 0 0 5px rgb(72, 72, 72);
+     border-radius: 5px;
+     background-size: cover;
+     background-position: center;
+     transition: 300ms;
+     cursor: pointer;
+}
+
+.small:hover {
+     width: 31%;
+     height: 105px;
+}
+
+.photo-4 {
+     background-image: url(img/one.png);
+}
+
+.photo-5 {
+     background-image: url(img/two.PNG);
+}
+
+.photo-6 {
+     background-image: url(img/3.jpg);
+}
+
+.photo-7 {
+     background-image: url(img/four.PNG);
+}
+
+.photo-8 {
+     background-image: url(img/five.PNG);
+}
+
+.photo-9 {
+     background-image: url(img/six.PNG);
+}
+
+.photo-10 {
+     background-image: url(img/seven.PNG);
+}
+
+.photo-11 {
+     background-image: url(img/eight.PNG);
+}
+
+.photo-12 {
+     background-image: url(img/nine.PNG);
+}
+
+.photo-13 {
+     background-image: url(img/ten.PNG);
+}
+
+.photo-14 {
+     background-image: url(img/eleven.png);
+}
+
+.photo-15 {
+     background-image: url(img/fifteen.png);
+}
+
+
+
+.left-page {
+     position: absolute;
+     left: 0;
+     width: 48%;
+     height: 40%;
+     bottom: 0;
+     padding: 15px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.text {
+     width: 90%;
+     height: 90%;
+     background-color: #00223E;
+     position: absolute;
+     direction: rtl;
+     padding: 10px;
+     color: #FFA17F;
+     overflow: auto;
+     display: none;
+}
+
+.text p {
+     color: #fff;
+}
+
+
+.big-photo {
+     width: 44%;
+     height: 50%;
+     position: absolute;
+     top: 5%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     left: 3%;
+     font-family: fantasy;
+     font-size: 25px;
+     color: #00223E;
+     border: 1px solid white;
+     background-size: cover;
+     background-position: center;
+}
+
+
+
+@media(max-width:480px) {
+     .album {
+          width: 70%;
+          height: 55%;
+     }
+
+     .text h1 {
+          font-size: 10px;
+     }
+
+     .text p {
+          font-size: 8px;
+     }
+
+     .small {
+          height: 70px;
+          width: 80%;
+          margin-top: 10px;
+     }
+
+     .small:hover {
+          width: 81%;
+          height: 71px;
+     }
+
+
+}
+
+
+@media(min-width:481px) {
+     .album {
+          width: 80%;
+          height: 55%;
+     }
+
+
+
+     .text h1 {
+          font-size: 20px;
+     }
+
+     .text p {
+          font-size: 12px;
+     }
+
+     .small {
+          height: 100px;
+          width: 48%;
+          margin-top: 10px;
+     }
+
+     .small:hover {
+          width: 49%;
+          height: 100px;
+     }
+}
+
+
+@media(min-width:768px) {
+     .album {
+          width: 85%;
+          height: 95%;
+     }
+
+     .text h1 {
+          font-size: 25px;
+     }
+
+     .text p {
+          font-size: 15px;
+     }
+
+     .small {
+          height: 150px;
+          width: 32%;
+          margin-top: 10px;
+     }
+
+     .small:hover {
+          width: 33%;
+          height: 150px;
+     }
+}
+
+
+@media(min-width:1280px) {
+     .album {
+          width: 70%;
+          height: 95%;
+     }
+
+     .text h1 {
+          font-size: 25px;
+     }
+
+     .text p {
+          font-size: 15px;
+     }
+
+     .small {
+          height: 200px;
+          width: 32%;
+          margin-top: 10px;
+     }
+
+     .small:hover {
+          width: 33%;
+          height: 200px;
+     }
+}
+
+
+@media(max-height:500px) {
+     .album {
+          width: 80%;
+          height: 50%;
+     }
+
+     .big-photo {
+          width: 30%;
+          height: 50%;
+          left: 10%;
+     }
+
+     .text h1 {
+          font-size: 15px;
+     }
+
+     .text p {
+          font-size: 8px;
+     }
+
+     .small {
+          height: 75px;
+     }
+
+     .small:hover {
+          height: 76px;
+     }
+}
+
+@media(min-height:701px) {
+     .big-photo {
+          height: 40%;
+     }
+}
+
+@media(min-height:900px) {
+     .big-photo {
+          height: 30%;
+     }
+}
+
+@media(min-height:1200px) {
+     .big-photo {
+          height: 25%;
+     }
+}
+
+@media(min-height:1500px) {
+     .big-photo {
+          height: 20%;
+     }
+}
