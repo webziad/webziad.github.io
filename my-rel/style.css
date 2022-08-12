@@ -21,7 +21,7 @@
 .album {
      width: 70%;
      height: 95%;
-     background-image: url(img/myAlbum.png);
+     background-image: url("https://dl.pmup.ir/ftpup/3nbp_myalbum.png");
      background-position: center;
      background-size: cover;
      box-shadow: 0 0 15px rgba(0, 0, 0, 0.661);
