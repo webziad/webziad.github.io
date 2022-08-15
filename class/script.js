@@ -49,7 +49,6 @@ jsbtn.addEventListener('click', () => {
      none("html5");
      minus("js");
      none("live");
-
 })
 
 

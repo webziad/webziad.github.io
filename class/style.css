@@ -45,7 +45,7 @@
 .menu {
      background-color: #f3917a;
      position: absolute;
-     right: -15%;
+     right: 0;
      top: 0;
      width: 15%;
      height: 100%;
@@ -54,7 +54,7 @@
 }
 
 .menu.show {
-     right: 0;
+     right: -15%;
 }
 
 
@@ -162,7 +162,6 @@ ul li a {
      text-shadow: 0 0 5px black;
 }
 
-#html5,
 #css3,
 #js {
      display: none;
@@ -177,14 +176,105 @@ p,
 #html-first-week,
 #html-second-week,
 #html-third-week,
-#css-first-week {
+#css-first-week,
+#live {
      width: 100%;
      height: 100%;
      display: none;
 }
 
+
+
+#live {
+     width: 100%;
+     height: 100%;
+     position: relative;
+}
+
+.first-live {
+     position: absolute;
+     width: 600px;
+     height: 300px;
+     top: 10%;
+     left: 20%;
+     transform: translate(-20%, -10%);
+     transition: 200ms ease-in;
+}
+
+.second-live:hover {
+     width: 72%;
+     height: 42%;
+}
+
+.first-live:hover {
+     width: 72%;
+     height: 42%;
+}
+
+
+.first-live img {
+     width: 100%;
+     height: 100%;
+}
+
+
+.second-live {
+     position: absolute;
+     width: 600px;
+     height: 300px;
+     top: 70%;
+     left: 20%;
+     transform: translate(-20%, -70%);
+     margin-top: 5%;
+     transition: 200ms ease-in;
+
+}
+
+.second-live img {
+     width: 100%;
+     height: 100%;
+}
+
+
 iframe {
      width: 100%;
      height: 100%;
      position: absolute;
+}
+
+@media(max-width:640px) {}
+
+
+
+
+
+
+@media(max-width:1240px) {
+     .menu {
+          width: 30%;
+          right: 0;
+     }
+
+     .menu.show {
+          right: -30%;
+     }
+
+     .menu ul li a {
+          font-size: 10px;
+     }
+
+     .subjects {
+          width: 30%;
+     }
+
+}
+
+@media(min-width:1241px) {
+     .first-live {
+          width: 700px;
+     }
+
+     .second-live {
+          width: 700px;
+     }
 }
