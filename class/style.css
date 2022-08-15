@@ -2,21 +2,189 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
+     text-decoration: none;
+     font-family: Vazir;
 }
 
-img {
+@font-face {
+     font-family: Vazir;
+     src: url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.eot);
+     src: url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff);
+     src: url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff2);
+}
+
+
+.container {
+     width: 100%;
+     height: 100vh;
+     background-color: slategray;
+     position: relative;
+}
+
+.window {
+     width: 80%;
+     height: 95%;
+     border-radius: 5px;
+     background-color: white;
      position: absolute;
-     left: 50%;
      top: 50%;
+     left: 50%;
      transform: translate(-50%, -50%);
-     width: 30%;
-     height: 50%;
+     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.474);
+     display: flex;
+     gap: 1rem;
+     position: relative;
+     overflow: hidden;
 }
 
-h1 {
+.main-screen {
+     flex-grow: 1;
+     background-color: #eff4f4;
+}
+
+.menu {
+     background-color: #f3917a;
      position: absolute;
-     left: 50%;
-     top: 5%;
-     font-family: fantasy;
-     transform: translate(-50%, -50%);
+     right: -15%;
+     top: 0;
+     width: 15%;
+     height: 100%;
+     transition: .7s ease-out;
+     overflow-y: auto;
+}
+
+.menu.show {
+     right: 0;
+}
+
+
+#s-menu {
+     width: 40px;
+     height: 40px;
+     margin-top: 1%;
+     right: 7%;
+     z-index: 99;
+     position: absolute;
+}
+
+ul {
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     justify-content: center;
+     list-style: none;
+     text-align: right;
+     margin-top: 20%;
+     padding: 10%;
+}
+
+ul li {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 7%;
+     padding: 10% 10%;
+     border: 1px solid rgb(88, 86, 86);
+}
+
+
+ul li a {
+     color: rgb(255, 255, 255);
+     font-size: 15px;
+}
+
+
+
+/* section html  */
+
+
+.part {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     display: flex;
+     transition: 1s ease-in-out;
+}
+
+
+
+.js {
+     display: none;
+}
+
+
+.context {
+     width: 80%;
+     height: 100%;
+     position: relative;
+}
+
+.subjects {
+     width: 20%;
+     height: 100%;
+     background-color: #00999f;
+     display: flex;
+     flex-direction: column;
+}
+
+.week {
+     direction: rtl;
+     width: 95%;
+     background-color: steelblue;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 5%;
+     margin-left: 2%;
+     cursor: pointer;
+}
+
+.pic {
+     width: 25%;
+     background-color: #eff4f4;
+}
+
+.title {
+     width: 95%;
+     background-color: cadetblue;
+     padding: 3%;
+
+}
+
+.title h4 {
+     font-size: 15px;
+     color: #ffffff;
+}
+
+.title p {
+     font-size: 12px;
+     color: rgb(255, 162, 48);
+     text-shadow: 0 0 5px black;
+}
+
+#html5,
+#css3,
+#js {
+     display: none;
+}
+
+h1,
+p,
+#color {
+     color: #00999f;
+}
+
+#html-first-week,
+#html-second-week,
+#html-third-week,
+#css-first-week {
+     width: 100%;
+     height: 100%;
+     display: none;
+}
+
+iframe {
+     width: 100%;
+     height: 100%;
+     position: absolute;
 }
