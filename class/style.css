@@ -187,7 +187,8 @@ p,
 #html-second-week,
 #html-third-week,
 #css-first-week,
-#live {
+#live,
+#css-second-week {
      width: 100%;
      height: 100%;
      display: none;

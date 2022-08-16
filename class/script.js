@@ -14,6 +14,7 @@ let hfwbtn = document.querySelector('#hfw');
 let hswbtn = document.querySelector('#hsw');
 let htwbtn = document.querySelector('#htw');
 let cfwbtn = document.querySelector('#cfw');
+let cswbtn = document.querySelector("#csw")
 let livebtn = document.querySelector("#livebtn");
 function minus(side) {
      document.getElementById(side).style.display = "flex";
@@ -69,6 +70,7 @@ hfwbtn.addEventListener("click", () => {
      none('html-third-week');
      none('html-second-week');
      none('css-first-week');
+     none('css-second-week');
 
 })
 
@@ -77,6 +79,7 @@ hswbtn.addEventListener("click", () => {
      none('html-first-week');
      none("html-third-week");
      none('css-first-week');
+     none('css-second-week');
 
 })
 
@@ -85,6 +88,7 @@ htwbtn.addEventListener("click", () => {
      none('html-second-week');
      none("html-first-week");
      none('css-first-week');
+     none('css-second-week');
 
 })
 
@@ -93,4 +97,13 @@ cfwbtn.addEventListener('click', () => {
      none('html-second-week');
      none("html-first-week");
      minus('css-first-week');
+     none('css-second-week');
+})
+
+cswbtn.addEventListener('click', () => {
+     none("html-third-week");
+     none('html-second-week');
+     none("html-first-week");
+     none('css-first-week');
+     minus('css-second-week');
 })
