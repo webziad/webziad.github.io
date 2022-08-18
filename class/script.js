@@ -16,6 +16,8 @@ let htwbtn = document.querySelector('#htw');
 let cfwbtn = document.querySelector('#cfw');
 let cswbtn = document.querySelector("#csw")
 let livebtn = document.querySelector("#livebtn");
+let linkbtn = document.querySelector('#links');
+
 function minus(side) {
      document.getElementById(side).style.display = "flex";
 }
@@ -32,6 +34,7 @@ htmlbtn.addEventListener('click', () => {
      none("css3");
      none("js");
      none("live");
+     none('link-page');
 
 })
 
@@ -41,6 +44,7 @@ cssbtn.addEventListener('click', () => {
      none("html5");
      none("js");
      none("live");
+     none('link-page');
 
 })
 
@@ -49,6 +53,8 @@ jsbtn.addEventListener('click', () => {
      none("css3");
      none("html5");
      minus("js");
+     none('link-page');
+
      none("live");
 })
 
@@ -56,10 +62,18 @@ jsbtn.addEventListener('click', () => {
 livebtn.addEventListener('click', () => {
      none("css3");
      none("html5");
+     none('link-page');
      none("js");
      minus("live");
 })
 
+linkbtn.addEventListener('click', () => {
+     none("css3");
+     none("html5");
+     none("js");
+     none("live");
+     minus('link-page');
+})
 
 
 
