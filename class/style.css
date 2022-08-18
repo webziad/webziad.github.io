@@ -281,4 +281,18 @@ iframe {
      .week p {
           font-size: 10px;
      }
+
+     .links {
+          width: 80%;
+          height: 80px;
+     }
+
+     .first-link {
+          font-size: 14px;
+     }
+
+     .links img {
+          width: 30px;
+          height: 30px;
+     }
 }
