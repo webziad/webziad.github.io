@@ -15,18 +15,16 @@
 
 .box {
      display: flex;
+     overflow: hidden;
+     justify-content: center;
+     text-align: center;
      align-items: center;
-     justify-content: space-around;
-     position: absolute;
-     left: 50%;
-     top: 50%;
-     transform: translate(-50%, -50%);
+     padding-top: 20%;
 }
 
 .box div {
      flex-basis: 100px;
      text-align: center;
-     margin-left: 100px;
      color: white;
 }
 
