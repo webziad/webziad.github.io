@@ -1,0 +1,171 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container {
+     width: 100%;
+     height: 100vh;
+     background-color: rgb(30, 28, 28);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+button {
+     width: 200px;
+     height: 75px;
+     background-color: rgb(54, 53, 53);
+     border: none;
+     outline: none;
+     position: relative;
+     overflow: hidden;
+     cursor: pointer;
+     text-align: center;
+}
+
+h1 {
+     color: #fff;
+     font-size: 18px;
+     transition: 300ms ease-in-out
+}
+
+h2 {
+     position: absolute;
+     top: 40%;
+     transform: translateY(-40%);
+     left: 50%;
+     transform: translateX(-50%);
+     font-size: 18px;
+     color: rgb(0, 0, 0);
+     opacity: 0;
+     font-size: 2px;
+     transition: 200ms ease;
+}
+
+.slide {
+     position: absolute;
+     top: 0;
+     width: 50%;
+     height: 100%;
+     background-color: #01fd75;
+     transition: 400ms ease;
+}
+
+.left-side {
+     left: -45%;
+}
+
+.right-side {
+     right: -45%;
+}
+
+button:hover .left-side {
+     left: 15px;
+}
+
+button:hover .right-side {
+     right: 15px;
+}
+
+button:hover h1 {
+     font-size: 2px;
+}
+
+button:hover h2 {
+     opacity: 1;
+     font-size: 18px;
+}
+
+.click {
+     margin-top: 7%;
+     width: 200px;
+     height: 75px;
+     border: 1px solid white;
+     position: relative;
+}
+
+.text {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     border: 1px solid white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 18px;
+     color: white;
+     font-family: fantasy;
+     letter-spacing: 3px;
+     transition: 300ms ease-in;
+     cursor: pointer;
+     top: 0;
+     left: 0;
+}
+
+.click:hover .text {
+     top: 15px;
+     left: -15px;
+     background-color: rgba(173, 216, 230, 0.406);
+}
+
+.click:hover {
+     background-color: rgb(59, 76, 81);
+
+}
+
+.color {
+     margin-top: 7%;
+     width: 200px;
+     height: 75px;
+     border: 1px solid white;
+     position: relative;
+     animation: animate 0s ease-in infinite;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 18px;
+     color: white;
+     font-family: fantasy;
+     font-weight: 900;
+     cursor: pointer;
+}
+
+.color:hover {
+     animation: animate 1s ease-in infinite;
+
+}
+
+
+
+@keyframes animate {
+     0% {
+          background-color: white;
+          color: black;
+     }
+
+     25% {
+          background-color: black;
+          color: white;
+
+     }
+
+     50% {
+          background-color: white;
+          color: black;
+
+     }
+
+     75% {
+          background-color: black;
+          color: white;
+     }
+
+     100% {
+          background-color: white;
+          color: black;
+
+     }
+}
