@@ -6,7 +6,9 @@
      font-family: Vazir;
      src: url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff2)format('woff2'),
           url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff) format('woff'),
-          url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Thin.ttf) format('ttf');
+          url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Thin.ttf) format('ttf'),
+          url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Black.eot);
+
 }
 
 * {
