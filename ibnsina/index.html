@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-+4j30LffJ4tgIMrq9CwHvn0NjEvmuDCOfk6Rpg2xg7zgOxWWtLtozDEEVvBPgHqE" crossorigin="anonymous">
+</head>
+<body dir="rtl" >
+    <form class="container col-6 mt-4" action="https://formspree.io/f/xbjbdjgq" method="POST">
+        <fieldset>
+          <legend style="text-align: center"> سرویس دبیرستان ابن سینا </legend>
+          <div class="mb-3">
+            <label  for="disabledTextInput" class="form-label">نام و نام خانوادگی دانش آموز</label>
+            <input type="text" id="disabledTextInput" required class="form-control" placeholder="">
+          </div>
+
+          <div class="mb-3">
+            <label for="disabledTextInput" class="form-label"> شماره تلفن همراه دانش آموز </label>
+            <input type="number" id="disabledTextInput" required class="form-control" placeholder="">
+          </div>
+
+
+          <div class="mb-3">
+            <label for="disabledSelect"  class="form-label">نوع سرویس رو انتخاب کنید</label>
+            <select id="disabledSelect" required class="form-select">
+                <option>سواری شهری 200هزار تومان</option>
+                <option>سواری مسکن مهر 270هزار تومان</option>
+                <option>مینی بوس داخل شهری 110هزار تومان</option>
+                <option>مینی بوس مسکن مهر 135هزار تومان</option>
+                <option>مینی بوس نیم ور و باقرآباد 220هزارتومان</option>
+              <option></option>
+              <option></option>
+            </select>
+          </div>
+          
+          <div class="mb-3">
+            <label for="disabledSelect" class="form-label">کلاس دانش آموز را انتخاب کنید</label>
+            <select id="disabledSelect" class="form-select">
+              <option>701 </option>
+              <option>702</option>
+              <option>801</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">آدرس خانه خود را وارد کنید</label>
+            <textarea class="form-control" placeholder="لطفا آدرس دقیق وارد" required id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <button type="submit"  class="btn btn-primary">بفرست برای مدرسه</button>
+        </fieldset>
+      </form>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</body>
+</html>
