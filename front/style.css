@@ -1,0 +1,256 @@
+.container-fluid a {
+     font-size: 12px;
+}
+
+@font-face {
+     font-family: Vazir;
+     src: url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff2)format('woff2'),
+          url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.woff) format('woff'),
+          url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Thin.ttf) format('ttf'),
+          url(assets/vazir-font-v27.2.2-Fontjo.com/Vazir-Black.eot);
+}
+
+* {
+     font-family: Vazir;
+}
+
+.container-fluid a:hover {
+     font-weight: 500;
+     color: rgb(16, 4, 4);
+}
+
+#home {
+     background-color: #3c7f3e;
+     padding: 0 15px;
+     border-radius: 10px;
+
+}
+
+#home a {
+     color: #fff;
+}
+
+
+
+.slide-pic {
+     width: 100%;
+     height: 400px;
+     background-image: url(assets/main-page/header.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: relative;
+}
+
+
+#search {
+     border: none;
+     outline: none;
+     width: 60%;
+     background-color: rgba(240, 248, 255, 0.518);
+     border-radius: 20px;
+     height: 60px;
+     background-image: url(assets/main-page/loupe.png);
+     background-size: 4%;
+     background-position-x: 5px;
+     background-position-y: center;
+     background-repeat: no-repeat;
+}
+
+
+
+#courseList {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+
+.card {
+     margin: 1%;
+     cursor: pointer;
+     overflow: hidden;
+}
+
+.card::before {
+     content: "";
+     background-image: conic-gradient(#ffe100 90deg,
+               transparent 90deg);
+     height: 100px;
+     width: 150%;
+     position: absolute;
+     left: -25%;
+     top: 15%;
+     animation: rotate 2s infinite linear;
+     display: none;
+}
+
+.card:hover::before {
+     display: block;
+}
+
+@keyframes rotate {
+     100% {
+          transform: rotate(-360deg);
+     }
+}
+
+
+
+
+.card-img-top {
+     z-index: 99;
+}
+
+.card-body {
+     z-index: 99;
+     background-color: rgb(255, 255, 255);
+     margin-bottom: 3%;
+}
+
+
+
+
+.up {
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     position: fixed;
+     top: 80%;
+     left: 5px;
+}
+
+.down {
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     position: fixed;
+     top: 85%;
+     left: 5px;
+     transform: rotate(180deg);
+}
+
+footer {
+     width: 100%;
+     height: 100px;
+     background-color: #3586ff;
+     position: relative;
+     bottom: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px 50px;
+     margin-top: 15%;
+}
+
+footer .wave {
+     position: absolute;
+     top: -100px;
+     left: 0;
+     width: 100%;
+     height: 100px;
+     background: url(assets/main-page/wave.png);
+     background-size: 1000px 100px;
+}
+
+
+footer #wave1 {
+     z-index: 1000;
+     opacity: 1;
+     bottom: 0;
+     animation: animatewave 4s linear infinite;
+}
+
+footer #wave2 {
+     z-index: 999;
+     opacity: .5;
+     bottom: 15px;
+     animation: animatewave_2 4s linear infinite;
+}
+
+footer #wave3 {
+     z-index: 1000;
+     opacity: .2;
+     bottom: 20px;
+     animation: animatewave 3s linear infinite;
+}
+
+footer #wave4 {
+     z-index: 999;
+     opacity: .7;
+     bottom: 10px;
+     animation: animatewave_2 3s linear infinite;
+}
+
+#foot-text {
+     color: white;
+     text-align: center;
+}
+
+
+@keyframes animatewave {
+     0% {
+          background-position-x: 1000px;
+     }
+
+     100% {
+          background-position-x: 0;
+     }
+}
+
+
+
+@keyframes animatewave_2 {
+     0% {
+          background-position-x: 0;
+     }
+
+     100% {
+          background-position-x: 1000px;
+     }
+}
+
+i {
+     color: rgb(180, 153, 0);
+
+}
+
+@media(max-width:992px) {
+     #home {
+          margin-top: 5%;
+     }
+
+     footer {
+          margin-top: 30%;
+     }
+
+     .logo {
+          display: none;
+     }
+
+     .subtitle {
+          font-size: 15px;
+     }
+
+     .card p {
+          font-size: 12px;
+     }
+
+     .up,
+     .down {
+          display: none;
+     }
+
+     #foot-text {
+          font-size: 12px;
+     }
+
+     .top {
+          height: 150px;
+     }
+
+}
