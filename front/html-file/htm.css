@@ -97,4 +97,12 @@ ul li:hover {
      .lesson ul li {
           font-size: 10px;
      }
+     
+     .lesson {
+          width: 40%;
+     }
+
+     iframe {
+          width: 60%;
+     }
 }
