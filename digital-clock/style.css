@@ -1,0 +1,58 @@
+body {
+     margin: 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: 100vh;
+     justify-content: center;
+     background-image: url(pexels-riccardo-bertolo-4245826.jpg);
+     background-size: cover;
+}
+
+h2 {
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     color: #fff;
+     font-size: 14px;
+     text-align: center;
+}
+
+.clock {
+     display: flex;
+}
+
+.clock div {
+     margin: 15px;
+     position: relative;
+}
+
+.clock span {
+     width: 100px;
+     height: 80px;
+     background-color: slateblue;
+     opacity: .8;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     font-size: 50px;
+     text-shadow: 2px 2px 4px black;
+     justify-content: center;
+     box-shadow: 0 0 10px yellow;
+}
+
+.clock .text {
+     height: 30px;
+     font-size: 10px;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     background-color: darkblue;
+}
+
+.clock #amPm {
+     position: absolute;
+     bottom: 0;
+     width: 60px;
+     height: 30px;
+     font-size: 20px;
+     background-color: darkgoldenrod;
+}
