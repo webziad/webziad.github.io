@@ -53,11 +53,11 @@
 
 #iframe {
      width: 80%;
-     height: 95%;
+     height: 100%;
 }
 
 
-#frame.active {
+#iframe.active {
      width: 100%;
 }
 
@@ -105,5 +105,6 @@ ul li:hover {
 
      #iframe {
           width: 80%;
+          height:100%;
      }
 }

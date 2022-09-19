@@ -5,7 +5,7 @@ let firstLesson = document.getElementsByTagName('li');
 
 firstLesson[0].addEventListener("click", () => {
      /* اینجا محل قرار دادن لینک سورس ویدئوهای شماست */
-     frame.src = "assets/2.jpg";
+     frame.src = "";
 })
 
 arrow.addEventListener('click', () => {
