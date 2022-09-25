@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hero {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(night.jpg);
+	background-position: center;
+	background-size: cover
+}
+
+h3,
+span {
+	font-size: 120px;
+	color: transparent;
+	background-image: linear-gradient(#fff, #fff);
+	-webkit-background-clip: text;
+	background-repeat: no-repeat;
+	background-position: -950px;
+	animation: move 3s infinite alternate;
+	font-family: cursive;
+	-webkit-text-stroke: 1px white;
+}
+
+span {
+	background-image: linear-gradient(to left, rgb(241, 0, 0), rgb(200, 230, 8));
+}
+
+@keyframes move {
+	100% {
+		background-position: 0 0;
+	}
+}
+
+@media(max-width:580px) {
+
+	h3,
+	span {
+		font-size: 20px;
+	}
+}
+
+@media(min-width:581px) {
+
+	h3,
+	span {
+		font-size: 35px;
+	}
+}
+
+@media(min-width:781px) {
+
+	h3,
+	span {
+		font-size: 55px;
+	}
+}
+
+@media(min-width:1280px) {
+
+	h3,
+	span {
+		font-size: 125px;
+	}
+}
